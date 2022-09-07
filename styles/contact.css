@@ -1,0 +1,44 @@
+h1{
+    /* text-align: center; */
+    /* margin: 80px 10px 0 0; */
+    margin: 30px 10px;
+    text-align: left;
+}
+.contact{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 43vw;
+    background-color: rgb(230, 247, 255);
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+.contact input{
+    width: 40%;
+    height: 30px;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 19px;
+}
+textarea{
+    width: 83%;
+    padding: 10px;
+    margin: 15px 0 45px;
+    font-size: 19px;
+}
+.contact.adress input{
+    height: 80%;
+}
+button{
+    width: 83%;
+    padding: 10px;
+    font-family: var(--font2);
+    font-size: 16px;
+    background-color: rgb(45, 148, 238);
+    color: white;
+}
+button:hover{
+    background-color: rgb(23, 56, 83);
+}
